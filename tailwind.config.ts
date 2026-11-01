@@ -41,9 +41,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["var(--font-cormorant)", "Georgia", "serif"],
-        sans: ["var(--font-dmsans)", "system-ui", "sans-serif"],
-        script: ["var(--font-caveat)", "cursive"],
+        serif: ["'Cormorant Garamond'", "Georgia", "serif"],
+        sans: ["'DM Sans'", "system-ui", "-apple-system", "sans-serif"],
+        script: ["'Caveat'", "cursive"],
       },
       boxShadow: {
         polaroid: "0 10px 25px -5px rgba(73, 53, 59, 0.1), 0 8px 10px -6px rgba(73, 53, 59, 0.06)",
