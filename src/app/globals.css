@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream-50: #fcf9f6;
+  --cream-100: #f8edeb;
+  --blush-200: #ebcfd0;
+  --rose-400: #c98f94;
+  --brown-500: #79545a;
+  --cocoa-800: #49353b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream-100);
+  color: var(--cocoa-800);
+  font-family: var(--font-dmsans), system-ui, sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Film grain / subtle paper texture overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(121, 84, 90, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom romantic scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8edeb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c98f94;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #79545a;
+}
+
+/* 3D Flip Card Styles */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Accessibility: Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

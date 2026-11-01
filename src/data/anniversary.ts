@@ -1,0 +1,247 @@
+import { AnniversaryData } from "@/types/anniversary";
+
+export const anniversaryData: AnniversaryData = {
+  projectName: "A Year With You",
+  tagline: "365 Days of Us.",
+  anniversaryDate: "October 02",
+  partnerNickname: "Sayang",
+
+  opening: {
+    badge: "A Little Something For You",
+    heading: "For You, Sayang.",
+    subheading: "A little journey through our first year together.",
+    cta: "Open Our Story",
+    replayCta: "Replay Opening",
+  },
+
+  hero: {
+    badge: "OCTOBER 02 · OUR FIRST ANNIVERSARY",
+    heading: "A Year With You",
+    tagline: "365 days, countless memories, one person I would choose over and over again.",
+    primaryPhoto: "/images/hero/main.jpg",
+    cta: "Begin Our Story",
+  },
+
+  timeline: {
+    title: "Every Love Story Has a Beginning.",
+    subtitle: "Looking back at the very first steps that brought us here.",
+    items: [
+      {
+        id: "beginning-01",
+        image: "/images/timeline/beginning-01.jpg",
+        title: "The Beginning",
+        dateLabel: "Chapter I",
+        caption: "Where our journey quietly began.",
+        description: "The moment that changed everything — when two lives crossed paths and chose to walk alongside each other.",
+      },
+      {
+        id: "beginning-02",
+        image: "/images/timeline/beginning-02.jpg",
+        title: "Our First Chapter",
+        dateLabel: "Chapter II",
+        caption: "A special moment frozen in time.",
+        description: "The smile that made me realize ordinary days could become the most cherished memories.",
+      },
+    ],
+  },
+
+  gallery: {
+    title: "Little Moments, Big Memories.",
+    subtitle: "A collection of frames, laughs, and quiet moments that define our year.",
+    items: [
+      {
+        id: "memory-01",
+        image: "/images/gallery/memory-01.jpg",
+        caption: "A day etched in warmth",
+        subcaption: "Every quiet second with you feels like home.",
+        aspect: "portrait",
+      },
+      {
+        id: "memory-02",
+        image: "/images/gallery/memory-02.jpg",
+        caption: "Your infectious laughter",
+        subcaption: "The sound that brightens even the greyest days.",
+        aspect: "landscape",
+      },
+      {
+        id: "memory-03",
+        image: "/images/gallery/memory-03.jpg",
+        caption: "Walking side by side",
+        subcaption: "Every step feels lighter when you are near.",
+        aspect: "portrait",
+      },
+      {
+        id: "memory-04",
+        image: "/images/gallery/memory-04.jpg",
+        caption: "Little everyday adventures",
+        subcaption: "It is never about the place, but who is with me.",
+        aspect: "landscape",
+      },
+      {
+        id: "memory-05",
+        image: "/images/gallery/memory-05.jpg",
+        caption: "Soft glances & smiles",
+        subcaption: "Treasures hidden in the simplest shared glances.",
+        aspect: "portrait",
+      },
+      {
+        id: "memory-06",
+        image: "/images/gallery/memory-06.jpg",
+        caption: "Unfiltered joy",
+        subcaption: "Pure, honest happiness captured in a single frame.",
+        aspect: "landscape",
+      },
+    ],
+  },
+
+  letter: {
+    title: "Something I've Been Meaning to Tell You.",
+    subtitle: "Written straight from the heart, just for you.",
+    envelopeLabel: "A Letter For Sayang",
+    cta: "Open Your Letter",
+    salutation: "Dear Sayang,",
+    paragraphs: [
+      "I don't think a single letter could ever capture everything this past year has meant to me, but I still want to try.",
+      "Looking back, it's amazing how someone can become such an important part of your everyday life. From the smallest conversations to the moments we will remember for years, you've become a part of so many things that make my days meaningful.",
+      "Thank you for being here. Thank you for your patience, your understanding, your laughter, and even the little things you probably don't realize I appreciate.",
+      "I know we are not perfect, and I don't expect every day to be easy. What matters to me is that we continue to learn, grow, and understand each other along the way. I want us to keep making memories, supporting each other's dreams, and finding happiness in even the simplest moments.",
+      "If there's one thing I hope you never forget, it's that I am genuinely grateful to have you in my life. I don't just love the beautiful moments we share. I appreciate the person you are and the little world we've built together.",
+      "One year has passed, and there is still so much I look forward to experiencing with you.",
+      "Happy First Anniversary, Sayang.",
+      "Here's to more memories, more laughter, more growth, and many more chapters of us.",
+    ],
+    signoff: "With all my love,",
+    signature: "Your favorite person.",
+  },
+
+  reasons: {
+    title: "Twelve Months, Twelve Reasons.",
+    subtitle: "For each month that passed, a reminder of why I treasure you.",
+    items: [
+      {
+        id: 1,
+        number: "01",
+        title: "Your Smile",
+        description: "Because somehow, even an ordinary day feels better when I see you smile.",
+        icon: "Sparkles",
+      },
+      {
+        id: 2,
+        number: "02",
+        title: "Your Laugh",
+        description: "It's one of my favorite sounds, and I hope I get to hear it for a long, long time.",
+        icon: "Smile",
+      },
+      {
+        id: 3,
+        number: "03",
+        title: "Your Little Habits",
+        description: "Even the smallest things you do have become things I quietly adore.",
+        icon: "Coffee",
+      },
+      {
+        id: 4,
+        number: "04",
+        title: "Your Kindness",
+        description: "The way you care says more about your heart than words ever could.",
+        icon: "HeartHandshake",
+      },
+      {
+        id: 5,
+        number: "05",
+        title: "Your Presence",
+        description: "I don't always need something special to happen. Sometimes, having you around is enough.",
+        icon: "Compass",
+      },
+      {
+        id: 6,
+        number: "06",
+        title: "Your Understanding",
+        description: "Thank you for trying to understand me, even when I don't always know how to explain myself.",
+        icon: "ShieldCheck",
+      },
+      {
+        id: 7,
+        number: "07",
+        title: "Your Strength",
+        description: "I admire the way you keep going, even on days when things aren't easy.",
+        icon: "Sun",
+      },
+      {
+        id: 8,
+        number: "08",
+        title: "Your Voice",
+        description: "Somehow, hearing from you can make a long day feel a little lighter.",
+        icon: "Music",
+      },
+      {
+        id: 9,
+        number: "09",
+        title: "Your Warmth",
+        description: "You make the simplest moments feel safe, familiar, and comforting.",
+        icon: "Flame",
+      },
+      {
+        id: 10,
+        number: "10",
+        title: "Your Imperfections",
+        description: "I don't need you to be perfect. I appreciate you for being genuinely yourself.",
+        icon: "Feather",
+      },
+      {
+        id: 11,
+        number: "11",
+        title: "The Way You Love",
+        description: "I appreciate the little ways you show that you care, even when you don't realize it.",
+        icon: "Heart",
+      },
+      {
+        id: 12,
+        number: "12",
+        title: "Simply You",
+        description: "After everything, the biggest reason is still the simplest: I love you for being you.",
+        icon: "Infinity",
+      },
+    ],
+  },
+
+  music: {
+    title: "Some Songs Will Always Remind Me of You.",
+    subtitle: "A melody that holds a soundtrack to our story.",
+    songTitle: "Perfect",
+    artist: "Ed Sheeran",
+    album: "÷ (Divide)",
+    audioSrc: "/audio/our-song.mp3",
+    coverArt: "/images/hero/main.jpg",
+  },
+
+  surprise: {
+    initialTitle: "Before You Go...",
+    initialSubtitle: "There's one more thing I want you to know.",
+    buttonText: "There's Something I Haven't Told You",
+    revealedTitle: "One More Thing, Sayang...",
+    revealedSubtitle: "If I Had to Choose Again",
+    messageParagraphs: [
+      "I would still choose the same person, the same story, and the same little moments that brought us here.",
+      "Not because everything has always been perfect, but because what we have is worth choosing, every single day.",
+      "And that person will always be you.",
+    ],
+    highlight: "And that person will always be you.",
+    photo: "/images/surprise/special.jpg",
+  },
+
+  closing: {
+    title: "One Year Down, Forever To Go.",
+    subtitle: "October 02 · A milestone of love, gratitude, and dreams yet to come.",
+    photo: "/images/hero/main.jpg",
+    paragraphs: [
+      "Thank you for making this chapter of my life something worth remembering.",
+      "Whatever the next chapters hold, I hope we continue to write them together.",
+    ],
+    closingLove: "Happy First Anniversary, Sayang.",
+    signoff: "I love you, always.",
+    footerText: "MADE WITH LOVE, JUST FOR YOU.",
+    date: "October 02",
+    replayText: "Replay Our Story",
+  },
+};
